@@ -16,7 +16,7 @@ window.addEventListener('resize', resizeCanvas);
 // ---- Constants ----
 const PLAYER_RADIUS = 6;
 const PLAYER_HITBOX = 3;
-const PLAYER_SPEED = 4.5;
+const PLAYER_SPEED = 6;
 const PLAYER_SLOW_SPEED = 1.8;
 const PLAYER_BULLET_SPEED = 10;
 const PLAYER_FIRE_RATE = 6; // frames between shots
@@ -851,3 +851,4 @@ canvas.addEventListener('touchstart', e => {
 // ---- Init ----
 initStars();
 requestAnimationFrame(gameLoop);
+
