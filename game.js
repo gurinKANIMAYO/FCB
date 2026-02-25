@@ -23,7 +23,7 @@ const PLAYER_FIRE_RATE = 6; // frames between shots
 const MAX_LIVES = 3;
 const INVINCIBILITY_FRAMES = 120;
 const BOSS_ENTER_DURATION = 120;
-const MAX_ENEMY_BULLETS = 300;
+const MAX_ENEMY_BULLETS = 800;
 const BULLET_MAX_AGE = 600;
 const MAX_BOMBS = 3;
 const BOMB_INVINCIBLE_FRAMES = 90;
@@ -851,5 +851,6 @@ canvas.addEventListener('touchstart', e => {
 // ---- Init ----
 initStars();
 requestAnimationFrame(gameLoop);
+
 
 
